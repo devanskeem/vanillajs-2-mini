@@ -16,9 +16,6 @@ function addTodo(e){
 }
 
 function removeTodo(e){
-    console.log(e)
-    console.log(e.target)
-    console.log(e.target.parentNode)
     e.target.parentNode.remove();
 }
 
